@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none !important;
+}
+nav{
+    box-shadow: 3px 3px 9px 3px rgba(0,0,0,0.17);
+-webkit-box-shadow: 3px 3px 9px 3px rgba(0,0,0,0.17);
+-moz-box-shadow: 3px 3px 9px 3px rgba(0,0,0,0.17);
+}
+:root{
+    --nav-heading: 'Tilt Neon', cursive;
+    --nav-li: 'Roboto Slab', serif;
+    --introduction-heading: 'Playfair Display', serif;
+}
+
+  
+
+  
+.nav-heading{
+    font-family: var(--nav-heading);
+}
+nav ul li{
+    margin: 0px 15px !important;
+    font-family: var(--nav-li);
+    font-size: 17px;
+}
+.introduction-heading{
+    font-family: var(--introduction-heading);
+}
+.learn-container:hover{
+    background-color: purple;
+    color: white !important;
+    
+}
+.img{
+    background: url(../Image/ingredients.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

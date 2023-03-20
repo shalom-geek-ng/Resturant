@@ -14,10 +14,16 @@ nav{
     --nav-heading: 'Tilt Neon', cursive;
     --nav-li: 'Roboto Slab', serif;
     --introduction-heading: 'Playfair Display', serif;
+    --book-paragraph: 'Tiro Devanagari Hindi', serif;
+    --food-menu: 'Noto Sans JP', sans-serif;
+    --gallery-paragraph: 'Noto Sans JP', sans-serif;
+
 }
 
   
-
+.Booking-paragraph{
+    font-family: var(--book-paragraph);
+}
   
 .nav-heading{
     font-family: var(--nav-heading);
@@ -40,4 +46,28 @@ nav ul li{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+/* .boxed h4{
+    
+} */
+.reservation{
+    background: url(../Image/reservation.png) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.box-flex h4{
+font-family: var(--food-menu);
+}
+.gallery-paragraph{
+    font-family: var(--gallery-paragraph);
+}
+.gallery-btn:hover{
+    background-color: purple;
+    color: white !important;
+}
+.Testimonials-bg{
+    background: url(../Image/Testimonials.jpg);
+    background-position: center;
+    background-size: cover;
 }

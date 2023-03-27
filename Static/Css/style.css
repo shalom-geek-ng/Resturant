@@ -5,6 +5,9 @@
     text-decoration: none !important;
     list-style: none !important;
 }
+body{
+    position: relative !important;
+}
 nav{
     box-shadow: 3px 3px 9px 3px rgba(0,0,0,0.17);
 -webkit-box-shadow: 3px 3px 9px 3px rgba(0,0,0,0.17);
@@ -36,10 +39,14 @@ nav ul li{
 .introduction-heading{
     font-family: var(--introduction-heading);
 }
+.learn-container{
+    transition: all 0.3s ;
+}
 .learn-container:hover{
     background-color: purple;
     color: white !important;
-    
+    transform: translateY(-5px);
+   
 }
 .img{
     background: url(../Image/ingredients.jpg);
@@ -70,4 +77,7 @@ font-family: var(--food-menu);
     background: url(../Image/Testimonials.jpg);
     background-position: center;
     background-size: cover;
+}
+.blog-heading:hover{
+    color: purple !important;
 }
